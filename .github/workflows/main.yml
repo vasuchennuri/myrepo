@@ -1,0 +1,8 @@
+- name: Copy single file to remote
+        uses: garygrossgarten/github-action-scp@release
+        with:
+          local: /home/ec2-user/vasu
+          remote: vasuchennuri/myrepo
+          host: 52.72.25.95
+          username: ec2-user
+          privatekey: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDaDrsDBp+YZ/DAwAOiKb9mocNUXQOcLiYNiIy2A3TC8V3ptdV01Ayohg/jWC2//K1XtAfY5OYbPgSRvm2IWwICGzZsB8ZQ9Ua+eqQHAEtmxpEa/gL3LPyng1EE078a8ImbDSN0dAxHP7I8w1U3q1kmiXf/ZJXNOiYijVvdp98uTlra1xKW14w/YnIiDcDec+12RJr9v+oNu0HqBxrg62/TplGi2gVofoiC3Eqbz8GE7lquiwWiSJW3PWQcX87E26q1bCzMCSfO1f20FQf/4zNMtMr+cT2DREp4qCspB1uROst52NMp18ijQdxcaSmkeDkkvK3husvzdg/GITUoHdhM7E+hd7lwl5K6+n1h1j+X81kbczefNJPPgonzMdjd6IBbKCsq+nGE8VY1GkpQpYc6yePvDtaCiHE8DvC/jJ3RMwco7na5z1OEUxZ+i00bn9g30IFWmn1BsBX0ic9PUX3va0Mgm2pZK3qWVTx97k3cXsECJvlIuTJKypFX+G7XKyU=
