@@ -1,5 +1,5 @@
 - name: Copy single file to remote
-        uses: garygrossgarten/github-action-scp@release
+        uses: git@github.com:vasuchennuri/myrepo.git
         with:
           local: /home/ec2-user/vasu
           remote: vasuchennuri/myrepo
